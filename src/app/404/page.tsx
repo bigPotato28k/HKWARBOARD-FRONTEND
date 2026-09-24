@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { AppShell } from "@/components/app-shell";
+export default function FourOhFourPage(){return <AppShell><main className="page shell"><section className="panel" style={{maxWidth:720}}><div className="eyebrow">404</div><h1 className="page-title" style={{margin:"16px 0"}}>Table not found</h1><p className="lead">This page does not exist, or the event may have been removed.</p><div className="button-row" style={{marginTop:24}}><Link className="btn" href="/events">Find an event</Link><Link className="btn secondary" href="/">Home</Link></div></section></main></AppShell>;}

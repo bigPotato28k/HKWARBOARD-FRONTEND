@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function Footer() { return <footer className="site-footer"><div className="shell footer-inner"><Link href="/" className="brand"><span>✦</span> HKBOARDWAR</Link><p>Find your table. Build your team. Play together.</p><div className="footer-links"><Link href="/login">Sign in</Link><Link href="/register">Join now</Link><Link href="/login?redirect=%2F404">Help</Link></div></div></footer>; }
