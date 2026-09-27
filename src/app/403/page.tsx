@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { AppShell } from "@/components/app-shell";
+export default function ForbiddenPage(){return <AppShell><main className="page shell"><section className="panel" style={{maxWidth:720}}><div className="eyebrow">403</div><h1 className="page-title" style={{margin:"16px 0"}}>Access restricted</h1><p className="lead">Your account does not have permission to use this area. Sign in with a different account or return to the event finder.</p><div className="button-row" style={{marginTop:24}}><Link className="btn" href="/events">Browse events</Link><Link className="btn secondary" href="/">Home</Link></div></section></main></AppShell>;}
