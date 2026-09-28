@@ -12,6 +12,8 @@ export interface User {
   intro?: string;
   accStatus?: "active" | "suspended";
   level?: number;
+  score?: number;
+  totalScore?: number;
   notifySite?: boolean;
   notifyEmail?: boolean;
   createdAt?: string;
